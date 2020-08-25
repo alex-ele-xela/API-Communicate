@@ -1,0 +1,43 @@
+.um {
+    margin-top: 3rem;
+
+    width: 80%;
+
+    color: #aaabbc;
+    background-color: #373f47;
+}
+
+.search {
+    width: 50%;
+}
+
+button {
+    border: transparent;
+    outline: none;
+    color:transparent;
+    
+    color: #373f47;
+    background-color: transparent;
+}
+
+.list {
+    margin: 2rem;
+    padding: 0;
+}
+
+.list>li {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 1rem;
+
+    border-radius: 1rem;
+
+    display: inline-block;
+
+    background-color: #aaabbc;
+
+    transition: padding 0.5s ease;
+}
+
+.list>li:hover {
+    padding: 0.7rem 1.2rem;
+}
